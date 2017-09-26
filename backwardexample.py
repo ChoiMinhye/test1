@@ -35,8 +35,7 @@ def setup():
             forward1 = line[11:-1]
             print 'turning1 =', forward1
    except:
-      print 'no config file, set config to original'
- 
+      print 'no config file, set config to original' 
    video_dir.setup(busnum=busnum)
    car_dir.setup(busnum=busnum)
    motor.setup(busnum=busnum)
@@ -46,7 +45,7 @@ def setup():
    #Set the motor's true / false value to the opposite.
    backward0 = REVERSE(forward0)
    backward1 = REVERSE(forward1)
-   
+
 #Functions to control the direction of motor in reverse
 def REVERSE(x):
    if x == 'True':
@@ -73,11 +72,11 @@ def go_Backward(speed, running_time):
 if __name__ == "__main__":
    try:
       setup()
-      go_Backward(40, 2)
+      go_Forward(40, 2)
       time.sleep(1)
-      go_Backward(60, 2)
-      time.sleep(1)
+      go_Forward(60, 2)
+      time.sleep(1)      
       
    except KeyboardInterrupt:
-      go_Backward(0, 1)
+      go_Forward(0, 1)
       quit()
