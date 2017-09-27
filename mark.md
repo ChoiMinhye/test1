@@ -1,11 +1,11 @@
 # Week4 Assignment4 CodeReview
 ## 20141944 정보보안암호수학과 최민혜
----
+
 > **week4 과제는 다음과 같다.**
 > 1. 재귀함수로 Factorial 함수 작성하기
 > 2. Factorial 함수를 적용하여 Combination 함수 작성하기
 > 3. 재귀함수를 이용하여 Combination 함수 작성하기
---------
+
 > ** 1번 **
 > 재귀함수로 Factorial함수를 작성하기 위하여
 > 1부터 n-1까지를 곱한값에 n을 곱하는 방식으로 실행하였다.
