@@ -34,7 +34,7 @@
         return Factorial(n)/(Factorial(r)*Factorial(n-r))
     ```
 
-   **>코드리뷰 후 수정한 코드**
+   **>코드 리뷰 후 수정한 코드**
    ```python
    def combination(n,r):
        return factorial(n)/(factorial(r)*factorial(n – r))
@@ -58,7 +58,7 @@
        else:    #nCr == (n-1)C(r-1)+(n-1)C(r)을 이용한다.
            return recursive_Combination(n-1,r-1)+recursive_Combination(n-1,r)
    ```
-   **>코드리뷰 후 수정한 코드**
+   **>코드 리뷰 후 수정한 코드**
    ```python
    def recursive_comb(n,r):
        #nCn == 1, nC0 == 1 이므로 1을 반환한다.
