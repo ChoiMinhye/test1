@@ -13,13 +13,12 @@
 또한, 코딩 스타일 가이드라인에 맞추었을 때 함수이름을 소문자로 작성하는 것이 권장되므로 이 부분도 수정하였다.
 **초기 코드**
 ```python
-'''def Factorial(n):
-    return 1 if n == 1 or n == 0 else Factorial(n – 1)*n'''
+def Factorial(n):
+    return 1 if n == 1 or n == 0 else Factorial(n – 1)*n
 
 **코드 리뷰 후 수정한 코드**
-```python
-'''def factorial(n):
-    return 1 if n == 0 else factorial(n – 1)*n'''
+def factorial(n):
+    return 1 if n == 0 else factorial(n – 1)*n
 ### 2번
 초기에 Factorial 함수를 적용하여 Combination 함수를 작성하기 위하여
 > nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
