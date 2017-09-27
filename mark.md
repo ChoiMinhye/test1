@@ -1,9 +1,9 @@
 # Week4 Assignment4 CodeReview
 ## 20141944 정보보안암호수학과 최민혜
 
-week4 과제는 다음과 같다.
-*factorial 함수를 재귀함수로 작성하기
-*Factorial 함수 또는 재귀함수를 이용하여 Combination 함수 작성하기
+>week4 과제는 다음과 같다.
+factorial 함수를 재귀함수로 작성하기
+Factorial 함수 또는 재귀함수를 이용하여 Combination 함수 작성하기
 
 
 ```python
