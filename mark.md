@@ -26,6 +26,7 @@ def factorial(n):
 ### 2번
 초기에 Factorial 함수를 적용하여 Combination 함수를 작성하기 위하여
 > nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
+
 공식을 이용하였다.
 코드 리뷰를 통하여 공백과 함수 이름 작성에 스타일 가이드라인에 안 맞는 부분이 있었고 이를 수정하였다.
 ```python
@@ -42,6 +43,7 @@ def combination(n,r):
 ### 3번
 초기에는 재귀함수를 이용하여 Combination 함수를 작성하기 위해
 > nCr=(n-1)C(r-1)+(n-1)Cr
+
 공식을 이용하였다.
 이때 nCn=1이고 nC0=1 이므로 n=r일때나 r=0일 경우 1을 반환하고 종료하도록 하였고
 그 외의 경우에는 (n-1)C(r-1)+(n-1)Cr 을 반환하도록 하였다.
