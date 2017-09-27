@@ -21,7 +21,7 @@
        return 1 if n == 0 else factorial(n – 1)*n
    ```
 ---
-### _2.Factorial 함수를 적용하여 Combination 함수 작성하기_
+### _2. Factorial 함수를 적용하여 Combination 함수 작성하기_
  * 초기에 Factorial 함수를 적용하여 'Combination 함수'를 작성하기 위해 다음 공식을 이용하였다.
  ```python
  nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
@@ -40,7 +40,7 @@
        return factorial(n)/(factorial(r)*factorial(n – r))
    ```
 ---
-### _3.재귀함수를 이용하여 Combination 함수 작성하기_
+### _3. 재귀함수를 이용하여 Combination 함수 작성하기_
  * 초기에는 재귀함수를 이용하여 Combination 함수를 작성하기 위해 다음의 공식을 이용하였다.
    ```python
    nCr=(n-1)C(r-1)+(n-1)Cr
