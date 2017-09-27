@@ -1,8 +1,8 @@
 # Week4 Assignment4 CodeReview
 ## 20141944 정보보안암호수학과 최민혜
 
-
-```#Recursive Factorial Function
+```python
+#Recursive Factorial Function
 def Factorial(n):
     return 1 if n == 1 or n == 0 else Factorial(n - 1)*n
 
