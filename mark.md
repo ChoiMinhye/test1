@@ -1,6 +1,6 @@
 # Assignment4 Codereview
 ## 초기작성
-'''#Recursive Factorial Function
+```#Recursive Factorial Function
 def Factorial(n):
     return 1 if n == 1 or n == 0 else Factorial(n - 1)*n
 
@@ -37,4 +37,4 @@ while n >= r and r >= 0:    #n이 r보다 크거나 같고, r이 0 이상일 동
     n = int(input('Enter a number n: '))  # n 입력
     r = int(input('Enter a number r: '))  # r 입력
 else:
-print("Incorrect form")'''
+print("Incorrect form")```
