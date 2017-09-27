@@ -22,7 +22,7 @@ def Factorial(n):
 def factorial(n):
     return 1 if n == 0 else factorial(n – 1)*n
 ```
-
+---
 ### 2번
 초기에 Factorial 함수를 적용하여 Combination 함수를 작성하기 위하여
 > nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
@@ -32,12 +32,13 @@ def factorial(n):
 def Combination(n,r):
     return Factorial(n)/(Factorial(r)*Factorial(n-r))
 ```
----
+
 **코드리뷰 후 수정한 코드**
 ```python
 def combination(n,r):
     return factorial(n)/(factorial(r)*factorial(n – r))
 ```
+---
 ### 3번
 초기에는 재귀함수를 이용하여 Combination 함수를 작성하기 위해
 > nCr=(n-1)C(r-1)+(n-1)Cr
