@@ -14,8 +14,8 @@
 
 **초기 코드**
 ```python
-'''def Factorial(n):
-    return 1 if n == 1 or n == 0 else Factorial(n – 1)*n'''
+def Factorial(n):
+    return 1 if n == 1 or n == 0 else Factorial(n – 1)*n
 ```
 **코드 리뷰 후 수정한 코드**
 def factorial(n):
