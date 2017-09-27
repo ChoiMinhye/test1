@@ -18,22 +18,26 @@ def Factorial(n):
     return 1 if n == 1 or n == 0 else Factorial(n – 1)*n
 ```
 **코드 리뷰 후 수정한 코드**
+```python
 def factorial(n):
     return 1 if n == 0 else factorial(n – 1)*n
+```
+
 ### 2번
 초기에 Factorial 함수를 적용하여 Combination 함수를 작성하기 위하여
 > nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
 공식을 이용하였다.
 코드 리뷰를 통하여 공백과 함수 이름 작성에 스타일 가이드라인에 안 맞는 부분이 있었고 이를 수정하였다.
 ```python
-'''def Combination(n,r):
-    return Factorial(n)/(Factorial(r)*Factorial(n-r))'''
+def Combination(n,r):
+    return Factorial(n)/(Factorial(r)*Factorial(n-r))
+```
 
 **코드리뷰 후 수정한 코드**
 ```python
-'''def combination(n,r):
-    return factorial(n)/(factorial(r)*factorial(n – r))'''
-
+def combination(n,r):
+    return factorial(n)/(factorial(r)*factorial(n – r))
+```
 ### 3번
 초기에는 재귀함수를 이용하여 Combination 함수를 작성하기 위해
 > nCr=(n-1)C(r-1)+(n-1)Cr
@@ -45,19 +49,20 @@ def factorial(n):
 
 **초기 코드**
 ```python
-'''def recursive_Combination(n,r):
+def recursive_Combination(n,r):
     if n == r or r == 0:    #nCn == 1, nC0 == 1 이므로 1을 반환한다.
         return 1
     else:    #nCr == (n-1)C(r-1)+(n-1)C(r)을 이용한다.
-        return recursive_Combination(n-1,r-1)+recursive_Combination(n-1,r)'''
-
+        return recursive_Combination(n-1,r-1)+recursive_Combination(n-1,r)
+```
 **코드리뷰 후 수정한 코드**
 ```python
-'''def recursive_comb(n,r):
+def recursive_comb(n,r):
     if n == r or r == 0:    #nCn == 1, nC0 == 1 이므로 1을 반환한다.
         return 1
     else:    #nCr == (n-1)C(r-1)+(n-1)C(r)을 이용한다.
-        return recursive_comb(n-1,r-1)+recursive_comb(n-1,r)'''
+        return recursive_comb(n-1,r-1)+recursive_comb(n-1,r)
+```
 ### 1번
 초기에는 재귀함수로 Factorial함수를 작성하기 위하여 1부터 n-1까지를 곱한값에 n을 곱하는 방식으로 실행하였다.
 
@@ -66,7 +71,7 @@ def factorial(n):
 #Recursive Factorial Function
 def Factorial(n):
     return 1 if n == 1 or n == 0 else Factorial(n - 1)*n
-
+```
 #Combination Function1(Factorial 이용)
 def Combination(n,r):
     return Factorial(n)/(Factorial(r)*Factorial(n-r))
