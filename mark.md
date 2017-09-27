@@ -2,9 +2,9 @@
 ## 20141944 정보보안암호수학과 최민혜
 
 > **week4 과제는 다음과 같다.**
-1. Recursive 함수로 Factorial 함수 작성하기
-2. Factorial 함수를 이용하여 Combination 함수 작성하기
-3. Recursive 함수를 이용하여 Combination 함수 작성하기
+> 1. Recursive 함수로 Factorial 함수 작성하기
+> 2. Factorial 함수를 이용하여 Combination 함수 작성하기
+> 3. Recursive 함수를 이용하여 Combination 함수 작성하기
 
 ```python
 #Recursive Factorial Function
