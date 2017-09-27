@@ -13,14 +13,14 @@
    **>초기 코드**
    ```python
    def Factorial(n):
-   return 1 if n == 1 or n == 0 else Factorial(n – 1)*n
+       return 1 if n == 1 or n == 0 else Factorial(n – 1)*n
    ```
-**>코드 리뷰 후 수정한 코드**
-```python
-def factorial(n):
-    return 1 if n == 0 else factorial(n – 1)*n
-```
----
+   **>코드 리뷰 후 수정한 코드**
+   ```python
+   def factorial(n):
+       return 1 if n == 0 else factorial(n – 1)*n
+   ```
+   ---
 ### 2번
 * 초기에 Factorial 함수를 적용하여 'Combination 함수'를 작성하기 위해 다음 공식을 이용하였다.
 ```python
