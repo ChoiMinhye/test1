@@ -32,7 +32,7 @@ def factorial(n):
 def Combination(n,r):
     return Factorial(n)/(Factorial(r)*Factorial(n-r))
 ```
-
+---
 **코드리뷰 후 수정한 코드**
 ```python
 def combination(n,r):
