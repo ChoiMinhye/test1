@@ -9,7 +9,10 @@
 
 ### 1번
 재귀함수로 Factorial함수를 작성하기 위하여
+
 1부터 n-1까지를 곱한값에 n을 곱하는 방식으로 실행하였다.
+
+
 이때 종료 조건은 n이 1이거나 0일경우 1을반환하고 종료하도록하였다.
 ```python
 #Recursive Factorial Function
