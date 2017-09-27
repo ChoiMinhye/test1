@@ -22,16 +22,16 @@
    ```
 ---
 ### 2번
-* 초기에 Factorial 함수를 적용하여 'Combination 함수'를 작성하기 위해 다음 공식을 이용하였다.
-```python
-nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
-```
-* 코드 리뷰를 통하여 공백과 함수 이름 작성에 스타일 가이드라인에 안 맞는 부분이 있었고 이를 수정하였다.
-**>초기 코드**
-```python
-def Combination(n,r):
-    return Factorial(n)/(Factorial(r)*Factorial(n-r))
-```
+ * 초기에 Factorial 함수를 적용하여 'Combination 함수'를 작성하기 위해 다음 공식을 이용하였다.
+ ```python
+ nCr=Factorial(n)/(Factorial(r)*Facorial(n-r))
+ ```
+ * 코드 리뷰를 통하여 공백과 함수 이름 작성에 스타일 가이드라인에 안 맞는 부분이 있었고 이를 수정하였다.  
+  **>초기 코드**
+ ```python
+ def Combination(n,r):
+     return Factorial(n)/(Factorial(r)*Factorial(n-r))
+ ```
 
 **>코드리뷰 후 수정한 코드**
 ```python
