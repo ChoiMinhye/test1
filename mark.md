@@ -1,7 +1,7 @@
 # Week4 Assignment4 CodeReview
 ## 20141944 정보보안암호수학과 최민혜
 
->**week4 과제는 다음과 같다.**
+>  **week4 과제는 다음과 같다.**
 >1. 재귀함수로 Factorial 함수 작성하기
 >2. Factorial 함수를 적용하여 Combination 함수 작성하기
 >3. 재귀함수를 이용하여 Combination 함수 작성하기
@@ -20,7 +20,7 @@
    def factorial(n):
        return 1 if n == 0 else factorial(n – 1)*n
    ```
-   ---
+---
 ### 2번
 * 초기에 Factorial 함수를 적용하여 'Combination 함수'를 작성하기 위해 다음 공식을 이용하였다.
 ```python
